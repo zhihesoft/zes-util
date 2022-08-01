@@ -1,0 +1,35 @@
+{
+  "name": "zes-util",
+  "version": "1.0.0",
+  "description": "zes util library",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx eslint src/",
+    "test": "mocha ./dist/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhihesoft/zes-util.git"
+  },
+  "keywords": [
+    "zes",
+    "util"
+  ],
+  "author": "Stanley Hou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhihesoft/zes-util/issues"
+  },
+  "homepage": "https://github.com/zhihesoft/zes-util#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.21.0",
+    "mocha": "^9.2.2"
+  }
+}
