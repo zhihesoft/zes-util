@@ -1,6 +1,6 @@
 {
   "name": "zes-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "zes util library",
   "main": "./dist/index.js",
   "scripts": {
@@ -31,5 +31,9 @@
     "chai": "^4.3.6",
     "eslint": "^8.21.0",
     "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "log4js": "^6.6.1"
   }
 }
