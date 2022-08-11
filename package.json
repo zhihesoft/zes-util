@@ -1,6 +1,6 @@
 {
   "name": "zes-util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "zes util library",
   "main": "./dist/index.js",

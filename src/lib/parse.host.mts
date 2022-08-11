@@ -1,5 +1,3 @@
-import { isNullOrEmpty } from "./is.null.or.empty.mjs";
-
 /**
  * parse an string like 'xxxx:pppp' to host and port
  * @param host 
@@ -7,9 +5,6 @@ import { isNullOrEmpty } from "./is.null.or.empty.mjs";
  * @returns 
  */
 export function parseHost(host: string, defaultPort = 3000): { host: string, port: number } {
-    if (isNullOrEmpty(host)) {
-        throw new Error(`invalid host format`);
-    }
     const idx = host.indexOf(":");
     if (idx < 0) {
         return { host, port: defaultPort };
