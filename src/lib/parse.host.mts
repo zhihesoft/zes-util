@@ -1,4 +1,4 @@
-import { isNullOrEmpty } from "./is.null.or.empty";
+import { isNullOrEmpty } from "./is.null.or.empty.mjs";
 
 /**
  * parse an string like 'xxxx:pppp' to host and port
