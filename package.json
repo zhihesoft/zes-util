@@ -1,9 +1,9 @@
 {
   "name": "zes-util",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "zes util library",
-  "main": "./dist/index.js",
+  "main": "./dist/index.mjs",
   "scripts": {
     "build": "tsc",
     "lint": "npx eslint src/",
