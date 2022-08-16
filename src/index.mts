@@ -1,3 +1,11 @@
-export { parseHost } from "./lib/parse.host.mjs";
-export { md5 } from "./lib/md5.mjs";
-export { parseParamNames } from "./lib/parse.param.names.mjs";
+import misc from "./lib/misc.mjs";
+import io from "./lib/io.mjs";
+import math from "./lib/math.mjs";
+
+const zes = {
+    io,
+    misc,
+    math,
+};
+
+export default zes;
